@@ -7,7 +7,7 @@ Source code of Distribution aware test selection metric
 
 ## project structure
 ```
-├── models                        # pretrained OOD detector
+├── models                        # pretrained OOD detector  
 ├── art_attack.py                 # adv examples generation
 ├── data_preparation.py           # img transformation
 ├── DAT_metric.py                 # DAT metrics
@@ -15,4 +15,10 @@ Source code of Distribution aware test selection metric
 ├── wilds_retrain.py              # WILDs retraining
 ```
 
-We reuse part of the code from [MCP](https://github.com/actionabletest/MCP)
+## Others
+
+- WILDs data can be downloaded from https://wilds.stanford.edu/
+
+- WILDs pretrained OOD detector model [wilds](https://drive.google.com/drive/folders/1t16my17GlCP8dDMjKcOMgnNCyGmZErH1)
+
+- We reuse part of the code from [MCP](https://github.com/actionabletest/MCP)
